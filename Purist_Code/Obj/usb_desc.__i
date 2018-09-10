@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O2 --apcs=interwork -I.\Source\CMSIS\CM3\CoreSupport -I.\Source\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\Source\FWLib\inc -I.\Source\APP -I.\Source\BSP -I.\Source\FWLib -I.\Source\uCOS-II\Source -I.\Source\uCOS-II\uC-CPU -I.\Source\uCOS-II\uC-LIB -I.\Source\uCOS-II\Ports -I.\Source\util -I.\Source\BSP\Common -I.\Source\FATFS -I.\Source\STM32_USB-FS-Device_Driver\inc -I.\Source\HAL\USBCDC -I.\Source\radio_driver\Si446x -I.\Source\radio_driver -I.\Source\radio_app 
+-I C:\Keil\ARM\RV31\INC 
+-I C:\Keil\ARM\CMSIS\Include 
+-I C:\Keil\ARM\Inc\ST\STM32F10x 
+-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD -DUSE_STM3210C_EVAL -DUSE_USART1_STDIO -Dradio_config_Si4463_10K -DSERIAL_DEBUG -o ".\Obj\usb_desc.o" --omf_browse ".\Obj\usb_desc.crf" --depend ".\Obj\usb_desc.d" "Source\HAL\USBCDC\usb_desc.c"

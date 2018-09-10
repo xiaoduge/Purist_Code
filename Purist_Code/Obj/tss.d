@@ -1,0 +1,10 @@
+.\Obj\tss.o: Source\util\tss.c
+.\Obj\tss.o: Source\util\tss.h
+.\Obj\tss.o: .\Source\uCOS-II\Source\ucos_ii.h
+.\Obj\tss.o: .\Source\APP\app_cfg.h
+.\Obj\tss.o: .\Source\APP\os_cfg.h
+.\Obj\tss.o: .\Source\uCOS-II\Ports\os_cpu.h
+.\Obj\tss.o: .\Source\APP\DtypeStm32.h
+.\Obj\tss.o: Source\util\task.h
+.\Obj\tss.o: Source\util\msg.h
+.\Obj\tss.o: Source\util\vos.h

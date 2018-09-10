@@ -1,0 +1,55 @@
+*** Creating Trace Output File '.\obj_IAP\0860210008WDCA_Main_V_1_0.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj_iap\app.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_it.o"'
+### List of Objects: adding '".\obj_iap\config.o"'
+### List of Objects: adding '".\obj_iap\relay.o"'
+### List of Objects: adding '".\obj_iap\dica.o"'
+### List of Objects: adding '".\obj_iap\beep.o"'
+### List of Objects: adding '".\obj_iap\serial.o"'
+### List of Objects: adding '".\obj_iap\uartcmd.o"'
+### List of Objects: adding '".\obj_iap\at.o"'
+### List of Objects: adding '".\obj_iap\sapp.o"'
+### List of Objects: adding '".\obj_iap\printf.o"'
+### List of Objects: adding '".\obj_iap\ad7799.o"'
+### List of Objects: adding '".\obj_iap\display.o"'
+### List of Objects: adding '".\obj_iap\lcd.o"'
+### List of Objects: adding '".\obj_iap\storage.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_bkp.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_exti.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_pwr.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_spi.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_tim.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_rtc.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_flash.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_adc.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_can.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_i2c.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_iwdg.o"'
+### List of Objects: adding '".\obj_iap\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj_iap\misc.o"'
+### List of Objects: adding '".\obj_iap\core_cm3.o"'
+### List of Objects: adding '".\obj_iap\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\obj_iap\system_stm32f10x.o"'
+### List of Objects: adding '".\lib\0862100000STM32F103.lib"'
+### List of Objects: adding '".\obj_iap\font.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj_iap\app.o" ".\obj_iap\stm32f10x_it.o" ".\obj_iap\config.o" ".\obj_iap\relay.o" ".\obj_iap\dica.o" ".\obj_iap\beep.o" ".\obj_iap\serial.o" ".\obj_iap\uartcmd.o" ".\obj_iap\at.o" ".\obj_iap\sapp.o" ".\obj_iap\printf.o" ".\obj_iap\ad7799.o" ".\obj_iap\display.o" ".\obj_iap\lcd.o" ".\obj_iap\storage.o" ".\obj_iap\stm32f10x_bkp.o" ".\obj_iap\stm32f10x_exti.o" ".\obj_iap\stm32f10x_gpio.o" ".\obj_iap\stm32f10x_pwr.o" ".\obj_iap\stm32f10x_rcc.o" ".\obj_iap\stm32f10x_spi.o" ".\obj_iap\stm32f10x_tim.o" ".\obj_iap\stm32f10x_rtc.o" ".\obj_iap\stm32f10x_flash.o" ".\obj_iap\stm32f10x_adc.o" ".\obj_iap\stm32f10x_can.o" ".\obj_iap\stm32f10x_dma.o" ".\obj_iap\stm32f10x_i2c.o" ".\obj_iap\stm32f10x_iwdg.o" ".\obj_iap\stm32f10x_usart.o" ".\obj_iap\misc.o" ".\obj_iap\core_cm3.o" ".\obj_iap\startup_stm32f10x_md.o" ".\obj_iap\system_stm32f10x.o" D:\work\860210008\project_BLE\code\baseos_vcp\module\lib\0862100000STM32F103.lib ".\obj_iap\font.o" 
+--library_type=microlib --strict --scatter ".\stm32f103_md.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\0860210008WDCA_Main_V_1_0.map" -o .\obj_IAP\0860210008WDCA_Main_V_1_0.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj_IAP\0860210008WDCA_Main_V_1_0.axf'
+### ADS-LD Command File: '.\obj_IAP\0860210008WDCA_Main_V_1_0.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj_IAP\0860210008WDCA_Main_V_1_0.lnp', Handle=0x000002A8
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj_IAP\0860210008WDCA_Main_V_1_0.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

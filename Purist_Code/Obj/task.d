@@ -1,0 +1,10 @@
+.\Obj\task.o: Source\util\task.c
+.\Obj\task.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\Obj\task.o: Source\util\task.h
+.\Obj\task.o: Source\util\msg.h
+.\Obj\task.o: .\Source\uCOS-II\Source\ucos_ii.h
+.\Obj\task.o: .\Source\APP\app_cfg.h
+.\Obj\task.o: .\Source\APP\os_cfg.h
+.\Obj\task.o: .\Source\uCOS-II\Ports\os_cpu.h
+.\Obj\task.o: Source\util\vos.h
+.\Obj\task.o: .\Source\APP\DtypeStm32.h

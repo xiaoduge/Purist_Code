@@ -1,0 +1,11 @@
+.\Obj\timer.o: Source\util\timer.c
+.\Obj\timer.o: Source\util\timer.h
+.\Obj\timer.o: .\Source\uCOS-II\Source\ucos_ii.h
+.\Obj\timer.o: .\Source\APP\app_cfg.h
+.\Obj\timer.o: .\Source\APP\os_cfg.h
+.\Obj\timer.o: .\Source\uCOS-II\Ports\os_cpu.h
+.\Obj\timer.o: .\Source\APP\DtypeStm32.h
+.\Obj\timer.o: Source\util\task.h
+.\Obj\timer.o: Source\util\msg.h
+.\Obj\timer.o: Source\util\vos.h
+.\Obj\timer.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h

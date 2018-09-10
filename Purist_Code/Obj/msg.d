@@ -1,0 +1,12 @@
+.\Obj\msg.o: Source\util\msg.c
+.\Obj\msg.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\Obj\msg.o: Source\util\vos.h
+.\Obj\msg.o: .\Source\APP\DtypeStm32.h
+.\Obj\msg.o: .\Source\uCOS-II\Source\ucos_ii.h
+.\Obj\msg.o: .\Source\APP\app_cfg.h
+.\Obj\msg.o: .\Source\APP\os_cfg.h
+.\Obj\msg.o: .\Source\uCOS-II\Ports\os_cpu.h
+.\Obj\msg.o: Source\util\msg.h
+.\Obj\msg.o: Source\util\task.h
+.\Obj\msg.o: Source\util\memory.h
+.\Obj\msg.o: Source\util\voslog.h

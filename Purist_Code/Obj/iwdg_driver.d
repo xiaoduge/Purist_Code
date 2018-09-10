@@ -1,0 +1,17 @@
+.\Obj\iwdg_driver.o: Source\BSP\IWDG_Driver.c
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_iwdg.h
+.\Obj\iwdg_driver.o: .\Source\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Obj\iwdg_driver.o: .\Source\CMSIS\CM3\CoreSupport\core_cm3.h
+.\Obj\iwdg_driver.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\iwdg_driver.o: .\Source\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\Obj\iwdg_driver.o: .\Source\APP\stm32f10x_conf.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_dma.h
+.\Obj\iwdg_driver.o: .\Source\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_exti.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_gpio.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_i2c.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_rcc.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_sdio.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_spi.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\stm32f10x_usart.h
+.\Obj\iwdg_driver.o: .\Source\FWLib\inc\misc.h
