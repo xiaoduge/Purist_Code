@@ -760,11 +760,13 @@ void Disp_CheckConsumptiveMaterialState(void)
         {
             ulTemp = (ulCurTime - Display.info.PACKLIFEDAY)/DISP_DAYININSECOND;
 
-            if (ulTemp >= Display.cfg.cfg2.PACKLIFEDAY)
+            if ((ulTemp >= Display.cfg.cfg2.PACKLIFEDAY)
+				&&(Display.cfg.cfg2.PACKLIFEDAY != 0))
             {
                 Display.bit1PackCheck = TRUE;
             }
-            if (Display.info.PACKLIFEL >= Display.cfg.cfg2.PACKLIFEL)
+            if ((Display.info.PACKLIFEL >= Display.cfg.cfg2.PACKLIFEL)
+				&&(Display.cfg.cfg2.PACKLIFEL != 0))
             {
                 Display.bit1PackCheck = TRUE;
             }
@@ -775,12 +777,14 @@ void Disp_CheckConsumptiveMaterialState(void)
         {
             ulTemp = (ulCurTime - Display.info.UVLIFEDAY)/DISP_DAYININSECOND;
 
-            if (ulTemp >= Display.cfg.cfg2.UVLIFEDAY)
+            if ((ulTemp >= Display.cfg.cfg2.UVLIFEDAY)
+				&&(Display.cfg.cfg2.UVLIFEDAY != 0))
             {
                 Display.bit1UVCheck = TRUE;
             }
             
-            if (Display.info.UVLIFEHOUR >= Display.cfg.cfg2.UVLIFEHOUR*(3600/UV_PFM_PEROID))
+            if ((Display.info.UVLIFEHOUR >= Display.cfg.cfg2.UVLIFEHOUR*(3600/UV_PFM_PEROID))
+				&&(Display.cfg.cfg2.UVLIFEHOUR*(3600/UV_PFM_PEROID) != 0))
             {
                 Display.bit1UVCheck = TRUE;
             }
@@ -793,7 +797,8 @@ void Disp_CheckConsumptiveMaterialState(void)
     {
         ulTemp = (ulCurTime - Display.info.FILTERLIFE)/DISP_DAYININSECOND;
 
-        if (ulTemp >= Display.cfg.cfg2.FILTERLIFE)
+        if ((ulTemp >= Display.cfg.cfg2.FILTERLIFE)
+			&&(Display.cfg.cfg2.FILTERLIFE != 0))
         {
             Display.bit1FilterCheck = TRUE;
         }
